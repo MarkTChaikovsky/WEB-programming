@@ -6,6 +6,7 @@ for (let i = 0; i<n; i++) {
     a.push(el);
     sum += el;
 }
+alert(`Середній бал: ${sum / n}`);
 if (a.includes(2)) {
     alert("Двійочник");
 }
