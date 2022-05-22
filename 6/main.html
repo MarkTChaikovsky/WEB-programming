@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1024, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="lab_6.js" defer></script>
+    <script src="lab_6_2.js" defer></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <br>
+    <table id="table" border="1px">
+      <thead>
+        <tr>
+          <th>код</th>
+          <th>заголовок новини</th>
+          <th>короткий зміст новини</th>
+          <th>дата публікації</th>
+          <th>кількість переглядів</th>
+          <th>дії</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+
+      </tbody>
+    </table>
+    <br>
+    <button id="addNews">додати</button> <br> <br>
+
+    <div id="constructor"class="hide">
+      <label>додати новину</label> <br>
+      <input type="text" id="code" placeholder="код"><br>
+      <input type="text" id="headline" placeholder="заголовок новини"><br>
+      <input type="text" id="news_summary" placeholder="короткий зміст новини"><br>
+      <textarea cols="20" rows="10" id="text" placeholder="текст новини"></textarea><br>
+      <input type="text" id="publication_date" placeholder="дата публікації"><br>
+      <input type="text" id="views" placeholder="кількість переглядів"><br>
+      <button id="addNewsButton">ok</button> 
+    </div>
+
+    <div id="constructorEdit" class="hide">
+      <label>редагувати новину</label> <br>
+      <input type="text" id="code2" placeholder="код"><br>
+      <input type="text" id="headline2" placeholder="заголовок новини"><br>
+      <input type="text" id="news_summary2" placeholder="короткий зміст новини"><br>
+      <textarea cols="20" rows="10" id="text2" placeholder="текст новини"></textarea><br>
+      <input type="text" id="publication_date2" placeholder="дата публікації"><br>
+      <input type="text" id="views2" placeholder="кількість переглядів"><br>
+      <button id="addNewsButton2">ok</button>
+    </div>
+
+  </body>
+</html>

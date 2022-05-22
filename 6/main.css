@@ -1,0 +1,9 @@
+.hide {
+    display: none;
+}
+textarea {
+    resize: none;
+}
+#table {
+    justify-content: center;
+}
