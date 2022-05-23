@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(37, 17, 189);
+    font-family: 'Roboto', sans-serif;
+}
+#voidContent{
+    margin: auto;
+    width: 100%;
+    padding-top: 250px;
+}
+.container{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2px;
+    padding: 22px;
+    margin: auto;
+}
+#tabIndex{
+    border: 0px;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 15px;
+}
+#tabIndex:focus{
+    outline: 0px;
+    border-bottom: 2px solid black;
+}
+#changeTab{
+    border: 1px;
+    padding: 10px;
+    
+}
+#changeTab:hover{
+    filter:brightness(97%)
+}
+#changeTab:active{
+    filter: brightness(90%);
+}
+.radioButton{
+    padding: 0px;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    background-color: transparent;
+    color: gray;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.radioButton:hover{
+    color: black;
+}
+.active{
+    color: black;
+}
+#content{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
